@@ -1,0 +1,29 @@
+{
+  "name": "ai-task-platform-backend",
+  "version": "1.0.0",
+  "description": "Backend API for AI Task Processing Platform",
+  "main": "src/server.js",
+  "scripts": {
+  "dev": "nodemon src/server.js",
+  "start": "node src/server.js",
+  "worker": "node src/workers/taskWorker.js"
+},
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bullmq": "^5.76.6",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "express-rate-limit": "^7.5.1",
+    "helmet": "^7.2.0",
+    "ioredis": "^5.10.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.23.1",
+    "morgan": "^1.10.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "nodemon": "^3.1.14"
+  }
+}
