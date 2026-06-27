@@ -1,6 +1,6 @@
 # AI Task Processing Platform
 
-A full-stack AI task processing platform built with MERN stack, Python worker, Docker, Kubernetes, and Argo CD.
+A full-stack AI task processing platform built with MERN stack, Python worker, Docker, 
 
 ## Tech Stack
 - Frontend: Next.js 14
